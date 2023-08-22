@@ -23,14 +23,14 @@
   },
   "dependencies": {
     "@aws-crypto/sha256-js": "^4.0.0",
-    "@aws-sdk/client-dynamodb": "^3.338.0",
-    "@aws-sdk/credential-provider-node": "^3.338.0",
-    "@aws-sdk/protocol-http": "^3.338.0",
-    "@aws-sdk/signature-v4": "^3.338.0",
-    "@aws-sdk/util-dynamodb": "^3.338.0",
-    "aws-cdk-lib": "2.80.0",
+    "@aws-sdk/client-dynamodb": "^3.374.0",
+    "@aws-sdk/credential-provider-node": "^3.374.0",
+    "@aws-sdk/protocol-http": "^3.374.0",
+    "@aws-sdk/signature-v4": "^3.374.0",
+    "@aws-sdk/util-dynamodb": "^3.374.0",
+    "aws-cdk-lib": "2.92.0",
     "aws-sdk": "^2.1383.0",
-    "constructs": "^10.2.31",
+    "constructs": "^10.2.69",
     "source-map-support": "^0.5.21"
   }
 }
