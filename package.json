@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@aws-crypto/sha256-js": "^4.0.0",
-    "@aws-sdk/client-dynamodb": "^3.338.0",
+    "@aws-sdk/client-dynamodb": "^3.395.0",
     "@aws-sdk/credential-provider-node": "^3.338.0",
     "@aws-sdk/protocol-http": "^3.338.0",
     "@aws-sdk/signature-v4": "^3.338.0",
