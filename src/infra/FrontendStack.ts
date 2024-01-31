@@ -45,7 +45,7 @@ export class FrontendStack extends Stack {
 
         const authFunction = new cloudfront.experimental.EdgeFunction(this, 'AuthFunctionAtEdge', {
             handler: 'auth.handler',
-            runtime: Runtime.NODEJS_16_X,
+            runtime: Runtime.NODEJS_18_X,
             code: Code.fromAsset(path.join(__dirname, '../functions/auth')),
         });
         authFunction.addToRolePolicy(new PolicyStatement({
